@@ -46,7 +46,7 @@ const Header = () => {
             justifyContent: "center",
             background: "#ffffff",
             boxShadow: "0 4px 10px rgba(0,0,0,0.06)",
-            border: `${HEADER_BORDER}px solid ${COLORS.gridStroke}`,
+            border: `${CELL_BORDER}px solid ${COLORS.gridStroke}`,
             fontSize: 84,
             fontWeight: 800,
             color: COLORS.headerText,
@@ -74,7 +74,7 @@ const Header = () => {
 };
 const Cell = ({ value, highlighted, circleProgress, isHeader, recentlyCalled }) => {
   const isFree = typeof value === "string" && value.toLowerCase().includes("free");
-  const borderWidth = isHeader ? HEADER_BORDER : CELL_BORDER;
+  const borderWidth = CELL_BORDER;
   const fontSize = isHeader ? 84 : 56;
   const fontWeight = isHeader ? 900 : 700;
   const borderRadius = BORDER_RADIUS;

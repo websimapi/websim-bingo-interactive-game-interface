@@ -36,7 +36,7 @@ function HeaderSmall() {
             justifyContent: "center",
             background: "#ffffff",
             boxShadow: "0 4px 10px rgba(0,0,0,0.06)",
-            border: "4px solid #2b2b2b",
+            border: "3px solid #2b2b2b",
             fontSize: 84,
             fontWeight: 800,
             color: "#1b1b1b",
